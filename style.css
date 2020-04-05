@@ -12,6 +12,12 @@ header {
 .nav-link{
 
     color:#2E8B57;
+    font-size:20px;
+}
+
+a{
+
+    color:#2E8B57;
 }
 
 a:hover {
@@ -20,40 +26,53 @@ a:hover {
   }
 
 
+
+
 body{
 
     text-align: center;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
+    color: #2E8B57;
     background-image: url(https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80);
     background-position: center center;
     background-repeat: no-repeat; /*doesn't tile*/
-    background-attachment: fixed;  /* Background image is fixed in the viewport so that it doesn't move when 
-    the content's height is greater than the image's height */
-    background-size: cover; /* This is what makes the background image rescale based
+    background-attachment: fixed;  /* Background image is fixed in the viewport  */
+    background-size: cover; /*  image rescale based
     on the container's size */
 }
 
 .container{
 
 
-    background-color: #dbd7d2;
+    background-color:#E8E8E8 ;
     padding:24px;
+    /*border:5px solid;
+    border-color: #2E8B57;*/
 
+}
+
+
+.responsive {
+
+    width: 300px;
+    height:200px;
+    border:3px solid;
+    border-color: #2E8B57;;
 }
 
 
 
 
 
-/*footer{
+footer{
 
     text-align:center;
-    background-color: whitesmoke;
-    margin-left: 100px;
-    margin-right:100px;
-    margin-bottom:0;
-
-}*/
+    background-color: #E8E8E8;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    
+}
 
 
 
